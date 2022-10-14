@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+.tile{
+    border: 1px solid #000;
+    position: absolute;
+    box-sizing: border-box;
+}
+table{
+    position: relative;
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 1; */
+}
+/* Koordinata va notatsiya |OK|
+   click qoidalari         |OK|
+   render                  |OK|
+   Xaritani va notasiyani belgilab borish |OK|
+   o'yin qoidalari navbat va g'alaba  |OK|
+   random yurish |OK|
+   2 tomon uchun ham random yurish |OK|
+savol nechta kombinatsiya bor
+*/
